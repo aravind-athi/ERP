@@ -1,37 +1,32 @@
 {
+  "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "prisma generate"
+    "build": "next build",
+    "dev": "next dev --turbopack",
+    "start": "next start"
   },
   "dependencies": {
-    "@prisma/client": "^5.1.1",
-    "@tanstack/react-table": "^8.10.7",
-    "@types/node": "20.5.0",
-    "@types/react": "18.2.20",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "bcrypt": "^5.1.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "lucide-react": "^0.263.1",
-    "next": "13.4.19",
-    "next-auth": "^4.22.3",
-    "postcss": "8.4.27",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-datepicker": "^4.10.0",
-    "@types/react-datepicker": "^4.4.2",
-    "tailwind-merge": "^1.14.0",
-    "tailwindcss": "3.3.3",
-    "tailwindcss-animate": "^1.0.6",
-    "typescript": "5.1.6"
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.9",
+    "@vercel/postgres": "^0.10.0",
+    "autoprefixer": "10.4.20",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.1",
+    "next": "latest",
+    "next-auth": "5.0.0-beta.19",
+    "postcss": "8.4.49",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwindcss": "3.4.16",
+    "typescript": "5.7.2",
+    "use-debounce": "^10.0.4",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/bcrypt": "^5.0.0",
-    "prisma": "^5.1.1"
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "22.10.1",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "prisma": "^6.2.1"
   }
 }
-
